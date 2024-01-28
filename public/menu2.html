@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <title>메뉴 리스트</title>
+  </head>
+  <body>
+    <h1>관리자 페이지</h1>
+    <a href="admin.html">메뉴 추가하기</a>
+    <a href="menu.html">주문서 페이지</a>
+
+    <div id="edit-form" style="display: none">
+      <!— <label for="currentMenuName">현재 메뉴 이름:</label>
+      <input type="text" id="currentMenuName" name="currentMenuName" readonly /> —>
+      <label for="editMenuName">새로운 메뉴 이름:</label>
+      <input type="text" id="editMenuName" name="editMenuName" required />
+      <label for="editMenuPrice">새로운 메뉴 가격:</label>
+      <input type="text" id="editMenuPrice" name="editMenuPrice" required />
+      <button type="button" onclick="editMenu()">수정</button>
+      <button type="button" onclick="cancelEdit()">취소</button>
+  </div>
+  <img src="img\cafebackground.jpg" />
+    <div id="menu-list"></div>
+
+    <script src="./js/menu2.js"></script>
+  </body>
+</html>

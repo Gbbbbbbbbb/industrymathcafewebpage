@@ -1,0 +1,80 @@
+/* Reset some default styles for better consistency */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:80%;
+}
+  
+  /* Apply a background color to the body */
+  body {
+    background-color: #b06a23;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the pack1 container */
+  .pack1 {
+    background-color: #6b4e2e;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+  }
+  
+  /* Style the heading */
+  .pack1 h1 {
+    color: #0e0d0d;
+  }
+  
+  /* Style form controls */
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    color: #b06a23;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #84693b;
+    border-radius: 4px;
+  }
+  
+  /* Style buttons */
+  button {
+    color: #b06a23;
+    background-color:rgb(154, 69, 32);
+    color:black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    margin-right: 10px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .pack1 {
+      margin: 20px;
+      padding: 15px;
+    }
+  }
+  

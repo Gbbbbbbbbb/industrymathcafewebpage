@@ -1,0 +1,37 @@
+body{
+    background-color: tomato;
+    width: 100%;
+  margin: 0;
+  padding: 0;
+  
+   
+}
+
+html{
+    height: 100%;
+}
+
+.fall{
+    font-size: 100px;
+    text-align: center;
+
+}
+
+.gb{
+    width: 100px;
+    height: 100px;
+}
+
+img.test{
+    margin: 30px;
+    width: 450px;
+    height: auto;
+}
+
+div#root{
+    display:flex;
+    position: absolute;
+    top: 35%;
+    left:2%;
+    
+}

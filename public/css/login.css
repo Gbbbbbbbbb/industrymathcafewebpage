@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    
+    font-family: "Noto Sans KR",sans-serif;
+}
+
+img {
+    size: cover;
+    display: flex;
+    position:fixed;
+    width:100vw;
+    height:100vh;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:80%;
+  }
+.form-container{
+    background-color: rgb(154, 69, 32);
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 400px;
+    margin: auto auto;
+    padding: 20px;
+    text-align: right;
+    margin-top: 5rem;
+}
+
+.form-control1{
+   text-align: center;
+}
+.form-control2{
+    text-align: center;
+ }
+
+ .form-control3{
+    text-align: center;
+ }
+
+.form-title{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+#email-center{
+   text-align: center;
+}
+
+#password-center{
+    text-align: center;
+}
+
+.links{
+    text-align: center;
+}

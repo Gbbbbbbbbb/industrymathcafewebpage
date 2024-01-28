@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chap 2 Example</title>
+    <style>
+      .even {
+        background: red;
+        color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="even" id="root"></div>
+    <div class="even" id="root2"></div>
+    <script>
+        const root = document.getElementById("root");
+        const root2=document.getElementById("root2");
+        const div = document.createElement("div");
+
+        for (let i = 0; i < 5; i++) {
+          const li = document.createElement("li");
+          li.textContent = `Hello div ${i + 1}`;
+          root.appendChild(li);
+        }
+
+        const items =["element1", "element2", "element3","element4"]
+        
+        const enclose = (tag, contents) => `<${tag}>${contents}</${tag}>`
+        const list = enclose('ul',
+        items
+        .filter(i => i.trim() !== '')
+        .map(i => enclose('li', i))
+        .join(''))
+
+        div.innerHTML=list;
+
+        root2.appendChild(div)
+
+      </script>
+    </div>
+  </body>
+</html>
